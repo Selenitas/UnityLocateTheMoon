@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7C021F48-A9F9-30A9-DA61-78CC5C9B568B}") = "UnityLocateTheMoon", "Assembly-CSharp.csproj", "{BC4D358F-ADA3-6F05-5031-D97A047D9E79}"
+EndProject
+Project("{7C021F48-A9F9-30A9-DA61-78CC5C9B568B}") = "UnityLocateTheMoon", "Assembly-CSharp-Editor.csproj", "{2958B283-FB67-FCFA-B8CC-A0437EF30DA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC4D358F-ADA3-6F05-5031-D97A047D9E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4D358F-ADA3-6F05-5031-D97A047D9E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4D358F-ADA3-6F05-5031-D97A047D9E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4D358F-ADA3-6F05-5031-D97A047D9E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2958B283-FB67-FCFA-B8CC-A0437EF30DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2958B283-FB67-FCFA-B8CC-A0437EF30DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2958B283-FB67-FCFA-B8CC-A0437EF30DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2958B283-FB67-FCFA-B8CC-A0437EF30DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

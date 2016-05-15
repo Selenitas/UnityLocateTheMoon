@@ -1,12 +1,13 @@
 ﻿#pragma strict
 
 public var movementSpeed = 10.0;
-private var limitLongitude = 180;
+public var coordinateLatitude = 47.15;
+public var coordinateLongitude = -110.43;
+public var plane: GameObject;
+
 private var limitLatitude = 90;
-var longitude = 130;
-var elevation = 100;
-var latitude = 0;
-var plane: GameObject;
+private var limitLongitude = 180;
+
 //private var coroutine;
 
 function Start () {
@@ -38,9 +39,6 @@ function readPositions () {
 }
 
 function readGeographicalCoordinates() {
-    
-    var coordinateLatitude = 47.15;
-    var coordinateLongitude = -110.43;
     var rise = 100; 
     return Vector3(coordinateLongitude, rise, coordinateLatitude);
 }
